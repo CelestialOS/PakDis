@@ -42,7 +42,7 @@ diff -rup quirc-1e9aac8/gitversion quirc/gitversion
 +#define VERSION_MAJ 0 // Major version
 +#define VERSION_MIN 9 // Minor version
 +#define VERSION_REV 11 // Revision number
-+#define VERSION_TXT \"yuyulinux\" // Rest of git describe
++#define VERSION_TXT \"PakDis" // Rest of git describe
 +#define CC_VERSION	\"\" // last line of cc -v" > version.h2
  
  if ! cmp version.h version.h2; then mv version.h2 version.h; else rm version.h2; fi
